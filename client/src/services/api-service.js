@@ -1,6 +1,6 @@
 import axios from "axios";
 
-class ApiClient {
+class ApiService {
 
   constructor() {
     this.axiosInstance = axios.create({
@@ -50,4 +50,4 @@ class ApiClient {
   }
 }
 
-export default new ApiClient();
+export default new ApiService();
